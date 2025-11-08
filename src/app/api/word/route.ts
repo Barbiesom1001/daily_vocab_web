@@ -4,6 +4,6 @@ import { words } from "@/data/words";
 export async function GET() {
   const randomIndex = Math.floor(Math.random() * words.length);
   const word = words[randomIndex];
-  console.log('tangkwa ...')
+  console.log('tangkwa was...')
   return NextResponse.json({ data:word });
 }
